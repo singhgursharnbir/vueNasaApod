@@ -1,28 +1,40 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header />
+    <ApodMain />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ApodMain from "./components/ApodMain.vue";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    ApodMain,
+    Header,
+    Footer
   }
-}
+};
 </script>
 
 <style>
+.thumbImage {
+  width: 50px;
+  height: 50px;
+}
+
+.yellowTextColor {
+  color: yellow;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+.sliderVideo {
+  width: 100%;
+  height: 400px;
 }
 </style>
