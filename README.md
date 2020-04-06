@@ -1,6 +1,6 @@
 # vue-nasa-apod
 
-This app uses Vue, Vuex, Bootstrap, Bootstrap-vue, vuex-persist and js-cookie to build a web app where user can see images fetched from NASA apod api. 
+This app uses Vue, Vuex, Bootstrap, Bootstrap-vue, vuex-persist and js-cookie to build a web app where user can see images fetched from NASA apod api. This app is deployed at https://singhgursharnbir.github.io/vueNasaApod/
 
 ## Some Features
 
